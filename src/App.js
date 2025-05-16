@@ -23,7 +23,7 @@ const Home = () => {
   )
 }
 // About Page Component
-const About = () => {
+const About = () => (
   <div>
     <h2>About Page</h2>
     <nav>
@@ -38,7 +38,7 @@ const About = () => {
     </nav>
     <Outlet />
   </div>
-}
+)
 
 // Components for other pages
 const Contact = () => <h2>Contact Page</h2>
