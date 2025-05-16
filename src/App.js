@@ -42,7 +42,7 @@ const About = () => (
 
 // Components for other pages
 const Contact = () => <h2>Contact Page</h2>
-const Team = () => <h2>Team Page</h2>
+const Team = () => (<div><h2>Team Page</h2><p style={{textAlign:"center"}}>aasdasdasdasdasdasdasdasdasd</p></div> )
 const Company = () => <h2>Company Page</h2>
 
 function App() {
